@@ -5,21 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
+  <script type="text/javascript" src="email.js"></script>
+
+  </script>
     <div class="downloads" style="text-align: center;">
         <div class="vOne">
             <div class="content">
-                <ion-icon style="margin:5%;" class="appLogo" name="logo-apple-ar"></ion-icon>
+                <ion-icon style="margin:1rem;" class="appLogo" name="logo-apple-ar"></ion-icon>
                 <h1 class="vOneName">v1.0</h1>
-                <button><ion-icon name="download-outline"></ion-icon>Download</button>
+                <button onclick="sendEmmail()"style="margin:5%;font-size: 1rem;"><ion-icon name="download-outline"></ion-icon>Download</button>
             </div>
             <!---->
-
+<a style="text-decoration: none;target:_blank;" href="https://github.com/"><ion-icon  class="github-logo"name="logo-github"></ion-icon></a>
 </body>
 
 </html>
