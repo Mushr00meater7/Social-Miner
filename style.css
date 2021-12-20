@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Inconsolata;
+    src: url(fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    font-family: Inconsolata;
+}
+
+div.downloads {
+    transition: opacity 154ms, transform 154ms;
+    opacity: 1;
+}
+
+
+/*Version 1.0 Start*/
+
+div.vOne {
+    transition: opacity 154ms, transform 154ms;
+    display: inline-block;
+}
+
+div.content {
+    display: inline-block;
+    margin: 0rem;
+    padding: 0.5vw;
+    text-align: left;
+    border: 2px solid gray;
+    border-radius: 0.2rem;
+    width: fit-content;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    box-shadow: 0px 8px 0px 0px gray;
+}
+
+.vOneName {
+    text-align: center;
+    box-shadow: 0px 8px 0px 1px gray;
+    border-radius: 0.2rem;
+}
+
+
+/*Version 1.0 End*/
+
+.appLogo {
+    font-size: 5rem;
+}
